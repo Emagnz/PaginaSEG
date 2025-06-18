@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Integrantes - Software Engineering Group</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="../css-GIS/estilosIntegrantes.css">
+  <link rel="icon" href="../img-GIS/ing.ico">
+  <link rel="stylesheet" href="../css-GIS/Styleheader.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+      <nav class="navbar navbar-expand-sm bg-is fixed-top shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img-GIS/SE.png" class="img-fluid" style="max-height: 50px;" alt="Logo grupo">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> 
+
+          <div class="offcanvas offcanvas-end" id="offcanvasNavbar" tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">El Grupo</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3"> 
+                <li class="nav-item"><a class="nav-link" href="../index.html">El Grupo</a></li>
+                <li class="nav-item"><a class="nav-link" href="Lacis.html">LaCIS</a></li>
+                <li class="nav-item"><a class="nav-link" href="Proyecto.html">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="integrantes.html">Integrantes</a></li>
+              </ul>
+              <a href="https://www.unsl.edu.ar/#gsc.tab=0"><img src="../img-GIS/LogoUnsl.png" class="img-fluid" style="max-height: 50px;" alt="Logo Unsl"></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+
+
+
+
+    <!-- secccion de filtros y buscadores -->
+    <main>
+      <section>
+        <div class="container my-5 display-1 titulo ">
+          <h2 class="text-center  p-5">NUESTROS <span class="invest">INVESTIGADORES</span></h2>
+        </div>
+        <div class="py-3 sticky-left d-none d-md-block">
+          <div class="container bg-white shadow rounded-4 p-3 filtro-wrapper">
+            <div class="row justify-content-center gx-2 gy-2" id="filtro-barra">
+              <div class="col-auto">
+                <button class="btn filtro-btn active botones-menu" id="todos">Todos</button>
+              </div>
+              <div class="col-auto">
+                <button class="btn filtro-btn botones-menu" id="director">Directores</button>
+              </div>
+              <div class="col-auto">
+                <button class="btn filtro-btn botones-menu" id="investigador">Investigadores</button>
+              </div>
+              <div class="col-auto">
+                <button class="btn filtro-btn botones-menu" id="asesorExterno">Asesor Externo</button>
+              </div>
+              <div class="col-auto">
+                <button class="btn filtro-btn botones-menu" id="estudiante">Estudiante</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="d-block d-md-none">
+          <button class="btn btn-filtros-moderno" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">☰ Filtros</button>
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+            aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Eliga el rol </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div class="col-auto">
+                <button class="btn filtro-btn  botones-menu-canvas" id="todos">Todos</button>
+              </div>
+              <div class="col-auto">
+                <button class="btn filtro-btn botones-menu-canvas" id="director">Directores</button>
+              </div>
+              <div class="col-auto">
+                <button class="btn  filtro-btn  botones-menu-canvas" id="investigador">Investigadores</button>
+              </div>
+              <div class="col-auto">
+                <button class="btn filtro-btn  botones-menu-canvas" id="asesorExterno">Asesor Externo</button>
+              </div>
+              <div class="col-auto">
+                <button class="btn  filtro-btn  botones-menu-canvas" id="estudiante">Estudiante</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <!-- secccion de cartas -->
+      <section>
+        <div class="container">
+          <div class="container my-5 subtitulo titulo-director" >
+            <h2 class="text-center ">DIRECTORES</h2>
+          </div>
+
+
+          <div class="row" id="contenedor-director">
+          </div>
+
+          <div class="row text-center row-cols-md-1  row-cols-lg-2  row-cols-sm-1   justify-content-center my-5 "
+            id="contenedor-directores-deLinea">
+          </div>
+
+          <div class="container my-5 titulo-integrantes" data-aos="fade-right" data-aos-duration="1000">
+            <h2 class="integrantes text-center">INTEGRANTES </h2>
+          </div>
+
+          <div
+            class="row row-cols-1 row-cols-md-2  row-cols-lg-3  row-cols-sm-1  g-4 my-4 justify-content-center text-center"
+            id="contenedor-cartas-integrantes">
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+<footer class="text-white pb-4 bg-dark"><!--footer-->
+  <div class="container text-center text-md-left">
+    <div class="row text-center ">
+      
+
+
+      <!-- Contacto -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-success">Contacto</h5>
+        <p><strong>Ubicación:</strong> Bloque II - 1 piso </p>
+        <p><strong>Oficinas:</strong> N° 1-2-3-26-27-28-29</p>
+        <p><strong>Email:</strong> driesco@unsl.edu.ar</p>
+
+      </div>
+
+      <!-- Logos -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3" >
+        <a class="navbar-brand" href="https://dirinfo.unsl.edu.ar/">
+          <img src="../img-GIS/logo informatica.png" alt="Logo Dirinfo" class="mx-auto d-block img-fluid mb-5 w-50">
+        </a>
+        
+        <a class="navbar-brand" href="https://fmn.unsl.edu.ar/">
+          <img src="../img-GIS/LogoFMYN.png" alt="Logo FCFMYN" class="mx-auto d-block img-fluid mb-3 w-50">
+        </a>
+      </div>
+      <!-- Mapa -->
+      <div class="col-sm-4 align-items-center  mt-3">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2358.2074909118564!2d-66.3393107656412!3d-33.29242710056197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d4394ebb423809%3A0xfe094d67819458ba!2s2do%20Bloque%20FCFMyN%20-%20UNSL!5e0!3m2!1ses!2sar!4v1749560202155!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" id="mapa"></iframe>
+      </div>
+      
+    </div>
+  </div>
+
+  <!-- Derechos -->
+  <div class="container-fluid mt-3">
+    <div class="row">
+      <div class="col-md-8 text-center">
+        <p class="text-secondary mb-0">© 2025 Universidad Nacional de San Luis. Todos los derechos reservados.</p>
+      </div>
+      <div class="col-sm-4 text-right">
+        <p class="text-secondary">Hecho por: <a href="">Ismael Farias</a> <a href="">Riberi Simon</a> <a href="">Gonzalez Emanuel</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+    <!-- SCRIPTS de JS para la funcionaldiad de la pagina -->
+
+    <script src="../js-GIS/ingresarNuevoIntegrante.js"></script>
+    <script> AOS.init(); </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"></script>
+    <script src="../js-GIS/despliegue.js"></script>
+    <script src="../js-GIS/interacion.js"></script>
+    <script src="../js-GIS/filtrado.js"></script>
+
+
+
+
+</body>
+
+</html>
