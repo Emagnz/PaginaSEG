@@ -1,0 +1,148 @@
+:root {
+    --color-principal: #1a4484;
+    --color-secundario: #8BC34A;
+    --color-fondo-claro: #e6f4f1;
+    --color-texto-oscuro: #333333;
+    --bs-font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #ffffff, var(--color-fondo-claro));
+    font-family: var(--bs-font-main);
+    color: var(--color-texto-oscuro);
+}
+
+.principal {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.principal-logo img {
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.1));
+}
+
+.titulo-seccion span {
+    border-bottom: 5px solid var(--color-secundario);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.card,
+.lacis-card {
+    border: none;
+    border-radius: var(--bs-border-radius-xl);
+    padding: 2rem 1.5rem;
+    background-color: var(--bs-white);
+    box-shadow: var(--bs-box-shadow);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    min-height: 20rem;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+}
+
+.card:hover,
+.lacis-card:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: var(--bs-box-shadow-lg);
+}
+
+.card-icon-container {
+    width: 70px;
+    height: 70px;
+    background-color: var(--color-fondo-claro);
+    border-radius: var(--bs-border-radius-pill);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.25rem auto 0.625rem;
+    box-shadow: var(--bs-box-shadow-sm);
+    font-size: 2.5rem;
+    color: var(--color-principal);
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover .card-icon-container,
+.lacis-card:hover .card-icon-container {
+    transform: translateY(-5px);
+    color: var(--color-secundario);
+}
+.titulo{
+    color: var(--color-texto-oscuro);
+}
+.texto-verde{
+    color: var(--color-secundario) !important;
+    border-bottom: 5px solid var(--color-secundario);
+}
+
+.servicio .servicio-titulo::after {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 2px;
+    margin: 0.625rem auto;
+    border-radius: 10px;
+    background-color: var(--color-principal);
+    transition: width 0.3s, background-color 0.3s, color 0.3s;
+}
+
+.card:hover .servicio .servicio-titulo,
+.lacis-card:hover .servicio .servicio-titulo {
+    color: var(--color-secundario) !important;
+}
+
+.card:hover .servicio .servicio-titulo::after,
+.lacis-card:hover .servicio .servicio-titulo::after {
+    width: 50%;
+    background-color: var(--color-secundario);
+}
+
+.carta-flipped {
+    position: relative;
+    width: 100%;
+    min-height: 25rem;
+    transition: transform 0.6s;
+   
+}
+
+.carta-flipped-interior {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-out;
+    transition: transform 0.6s;
+}
+
+.carta-frontal,
+.carta-trasera {
+    position: absolute;
+    backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.carta-trasera {
+    transform: rotateY(180deg);
+}
+
+.carta-flipped.flipped .carta-flipped-interior {
+    transform: rotateY(180deg);
+    transition: transform 0.6s;
+}
+
+.flip-btn:hover {
+    background-color: var(--color-secundario) !important;
+    border: 1px solid white!important;
+    color: white;
+}
+
+.boton-efecto {
+    border: 1px solid var(--color-texto-oscuro);
+    color: var(--color-texto-oscuro);
+}
+@media (max-width: 580px){
+    body, html {
+    overflow-x: hidden; 
+}
+
+}
