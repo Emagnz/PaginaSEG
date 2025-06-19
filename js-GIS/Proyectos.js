@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     CargarLista();
     CargarLogros();
+    listaResponsive();
 });
 function obtenerNombres(i){
     fetch('../json-GIS/Nombres.json')
