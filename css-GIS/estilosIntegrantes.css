@@ -417,7 +417,7 @@ transform: translateY(-2px);
 }
 
 .card-title{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -474,7 +474,7 @@ content: "";
     letter-spacing: 2px;
     font-weight:600;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.9rem:
+    font-size: 1rem:
    
    
    
@@ -512,7 +512,7 @@ content: "";
 .subtitulo-cartas-cuerpo{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-   font-size: 0.9rem:
+   font-size: 1rem:
 }
 
 .nombre{
