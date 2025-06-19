@@ -1,4 +1,4 @@
-
+dsf
 :root{
   --primary-color: #007bff;
   --font-main: 'Cormorant Garamond', serif;
@@ -474,7 +474,7 @@ content: "";
     letter-spacing: 2px;
     font-weight:600;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem:
+    font-size: 0.9rem:
    
    
    
@@ -512,7 +512,7 @@ content: "";
 .subtitulo-cartas-cuerpo{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-   font-size: 1rem:
+   font-size: 0.9rem:
 }
 
 .nombre{
