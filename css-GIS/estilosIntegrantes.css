@@ -515,8 +515,8 @@ content: "";
 
 .nombre{
     font-size: 1.1rem;
-    font-family: var(--font-main);
-    font-weight:600;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:500;
 }
 
 
