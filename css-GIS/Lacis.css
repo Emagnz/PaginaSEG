@@ -140,6 +140,10 @@ body {
     border: 1px solid var(--color-texto-oscuro);
     color: var(--color-texto-oscuro);
 }
+
+.servicio-titulo{
+    font-size:large;
+}
 @media (max-width: 580px){
     body, html {
     overflow-x: hidden; 
