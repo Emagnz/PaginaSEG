@@ -1,4 +1,4 @@
-dsf
+
 :root{
   --primary-color: #007bff;
   --font-main: 'Cormorant Garamond', serif;
@@ -8,7 +8,9 @@ dsf
   --sombra-boton-menu-hamburguesa: 0 4px 8px rgba(13, 110, 253, 0.2);
   --sombra-carta-imagen-hover:0 8px 20px rgba(13, 110, 253, 0.3);
 }
-
+body{
+   background:var(--cuerpo);
+}
 
 h1,h2,h3{
  font-family: 'Montserrat', sans-serif;
@@ -18,7 +20,6 @@ h1,h2,h3{
 
 main{
   font-family: var(--font-main);
-  background:var(--cuerpo);
 }
 /* menu interactivo */
 
@@ -474,7 +475,7 @@ content: "";
     letter-spacing: 2px;
     font-weight:600;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem:
+    font-size: 1rem;
    
    
    
@@ -512,7 +513,7 @@ content: "";
 .subtitulo-cartas-cuerpo{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
-   font-size: 1rem:
+   font-size: 1rem;
 }
 
 .nombre{
