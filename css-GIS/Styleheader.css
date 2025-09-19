@@ -39,7 +39,9 @@ html{
     grid-template-rows: 
     auto 1fr auto;
 }
-
+header{
+  background-color: transparent;
+}
 /* Navbar general */
 nav.bg-is {
   background-color: transparent;
@@ -82,4 +84,5 @@ nav.bg-is .nav-link:hover::after {
   height: 100%;
   margin: 3px;
 }
+
 
