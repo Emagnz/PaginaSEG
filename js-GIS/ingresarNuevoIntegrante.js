@@ -31,25 +31,17 @@ function CrearCartaDirector(datos){
 
             contenedor_director.innerHTML+=`
       
-          ${ director.rol==="CO-DIRECTOR" ? ` <div class="container my-5" data-aos="fade-right" data-aos-duration="1000">
-              <h2 class="directores text-center">CO-DIRECTOR</h2>
-            </div> `
-            :
-             `<div class="container my-5" data-aos="fade-right" data-aos-duration="1000">
+       
+             <div class="container my-5" data-aos="fade-right" data-aos-duration="1000">
               <h2 class="directores text-center">DIRECTOR</h2>
-            </div>` }
-             
+            </div>
             <div class=" card text-center mx-auto shadow p-3 mb-5 bg-body-tertiary rounded-4 carta-director ${director.clase_rol}"
               data-aos="fade-up" data-aos-duration="500">
               
               <h4 class=" titulo-principal border-primary-subtle card-title border-bottom border-2 py-2">${director.rol}</h4>
               <div class="my-2">
-                ${!director.imagen ? `<img src="../img-GIS/IMGIntegrantes/default.png"
-                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="..."> ` 
-                  :
-                    ` <img src="${director.imagen}"
-                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">` }
-               
+                <img src="${director.imagen}"
+                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">
               </div>
 
               <div class="card-body">
@@ -87,11 +79,8 @@ function CrearCartaDirector(datos){
               
               <h4 class=" titulo-principal border-primary-subtle card-title border-bottom border-2 py-2">${director.rol}</h4>
               <div class="my-2">
-                 ${!director.imagen ? `<img src="../img-GIS/IMGIntegrantes/default.png"
-                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="..."> ` 
-                  :
-                    ` <img src="${director.imagen}"
-                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">` }
+                <img src="${director.imagen}"
+                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">
               </div>
 
               <div class="card-body">
@@ -155,13 +144,8 @@ if(datos.length>0){
               data-aos="fade-up" data-aos-duration="1000">
               <h5 class="titulo-principal border-primary-subtle card-title border-bottom border-2 py-2">${directores.rol}</h5>
               <div class="my-2">
-                ${!directores.imagen ? `<img src="../img-GIS/IMGintegrantes/default.png"
-                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">`
-                   : 
-                   `<img src="${directores.imagen}"
-                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">`
-                }
-                
+                <img src="${directores.imagen}"
+                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">
               </div>
               <div class="card-body">
                 <h5 class="nombre card-title">${directores.nombre}</h5>
@@ -194,12 +178,8 @@ if(datos.length>0){
               data-aos="fade-up" data-aos-duration="1000">
               <h5 class="titulo-principal border-primary-subtle card-title border-bottom border-2 py-2">${directores.rol}</h5>
               <div class="my-2">
-                 ${!directores.imagen ? `<img src="../img-GIS/IMGintegrantes/default.png"
-                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">`
-                   : 
-                   `<img src="${directores.imagen}"
-                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">`
-                }
+                <img src="${directores.imagen}"
+                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">
               </div>
               <div class="card-body">
                 <h5 class="nombre card-title">${directores.nombre}</h5>
@@ -263,12 +243,8 @@ function CrearCartaIntegrantes(datos){
               <h5 class="titulo-principal border-primary-subtle card-title border-bottom border-2 py-2">${integrante.rol}
               </h5>
               <div class="my-2">
-              ${!integrante.imagen ? `<img src="../img-GIS/IMGintegrantes/default.png"
-                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="..."></img> `
-                :
-                ` <img src="${integrante.imagen}"
-                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">`
-              }
+                <img src="${integrante.imagen}"
+                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">
               </div>
               <div class="card-body ">
                 <h5 class="nombre card-title">${integrante.nombre}</h5>
@@ -299,12 +275,8 @@ function CrearCartaIntegrantes(datos){
               <h5 class="titulo-principal border-primary-subtle card-title border-bottom border-2 py-2">${integrante.rol}
               </h5>
               <div class="my-2">
-                 ${!integrante.imagen ? `<img src="../img-GIS/IMGintegrantes/default.png"
-                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="..."></img> `
-                :
-                ` <img src="${integrante.imagen}"
-                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">`
-              }
+                <img src="${integrante.imagen}"
+                  class="card-img-top  rounded-circle border border-white border-5 imagen-integrantes " alt="...">
               </div>
               <div class="card-body ">
                 <h5 class="nombre card-title">${integrante.nombre}</h5>
