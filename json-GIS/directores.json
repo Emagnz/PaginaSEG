@@ -1,27 +1,27 @@
 [
+
     {
 
-    "clase_rol":"director",
-    "rol": "DIRECTOR",
-    "nombre": "Dr. Salgado Humberto Carlos ",
-    "imagen": "",
-    "cv": "vacio",
-    "linkedin": "vacio",
-    "especializacion": "Metodologías de Desarrollo Seguro de Software",
-    "descripcion": "vacio"
+        "clase_rol":"director",
+        "rol":"DIRECTOR",
+        "nombre":"Dr. German Montegano",
+        "imagen":"../img-GIS/IMGintegrantes/Foto German - German A Montejano.jpg",
+        "cv":"../CVs-GIS/Bio Germán Montejano-CV resumido - German A Montejano.pdf",
+        "mail":"german.a.montejano@gmail.com",
+        "especializacion":"Ingenieria de Software",
+        "descripcion":"Doctor en Ingenieria de Software, Investigador categoría 1"
 
     },
-    
+
     {
 
-    "clase_rol":"director",
-    "rol": "DIRECTOR",
-    "nombre": "Dr. Garis Ana Gabriela ",
-    "imagen": "../img-GIS/IMGintegrantes/foto_ana_garis 1 - Ana Garis.png",
-    "cv": "../CVs-GIS/CV Ana Garis resumido short bio-2025 - Ana Garis.pdf",
-    "linkedin": "https://www.linkedin.com/in/ana-garis-5738364",
-    "especializacion": "Protección contra Amenazas, Vulnerabilidades y Riesgos vinculados a los Artefactos de Software",
-    "descripcion": "Docente e investigadora en UNSL. Participación en equipos de I+D+I de la UNSL, del IIST (China), de la Universidad de Minho y la de Porto (Portugal)."
-
+        "clase_rol":"director",
+        "rol":"DIRECTOR",
+        "nombre":"Dr. Mario Berón",
+        "imagen":"../img-GIS/IMGintegrantes/mario beron.jpeg",
+        "cv":"../CVs-GIS/MBeron.pdf",
+        "mail":"mberon@unsl.edu.ar",
+        "especializacion":"Seguridad de Sistemas, Ingenieria Inversa",
+        "descripcion":"Doctor en Ciencias de la Computacion de la UNSL, Doutor en Ciencias da Computação , Universidade do Minho-BragaPortugal."
     }
 ]

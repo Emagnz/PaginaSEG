@@ -26,34 +26,6 @@
 
 
     },
-
-    {
-
-    "clase_rol":"investigador",
-    "rol": "INVESTIGADOR",
-    "nombre": "dato.Arroyuelo Monica",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "vacio",
-    "descripcion": "vacio"
-
-
-    },
-
-    {
-
-    "clase_rol":"estudiante",
-    "rol": "ESTUDIANTE",
-    "nombre": "dato.Ayala Benitez Camila Andrea",
-    "imagen": "",
-    "cv": "",
-    "linkedin": "vacio",
-    "especializacion": "vacio",
-    "descripcion": "vacio"
-
-
-    },
     
     {
 
@@ -65,32 +37,6 @@
     "linkedin": "https://www.linkedin.com/in/lorena-baigorria/",
     "especializacion": "Blockchain, Desarrollo Web, Tecnologías, Metodologías de Desarrollo, Modelos",
     "descripcion": "Blockchain, Seguridad, Lenguajes de programación, Desarrollo Web"
-
-    },
-
-    
-    {
-
-    "clase_rol":"estudiante",
-    "rol": "ESTUDIANTE",
-    "nombre": "dato.Bascuñan Agustin Ezequiel",
-    "imagen": "",
-    "cv": "",
-    "linkedin": "vacio",
-    "especializacion": "vacio",
-    "descripcion": "vacio"
-    },
-
-    {
-
-    "clase_rol":"asesor-externo",
-    "rol": "ASESOR EXTERNO",
-    "nombre": "dato.Bast Silvia Gabriela",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "",
-    "descripcion": ""
 
     },
 
@@ -121,20 +67,6 @@
 
     {
 
-    "clase_rol":"estudiante",
-    "rol": "ESTUDIANTE",
-    "nombre": "dato.Castillo Elias Santiago",
-    "imagen": "",
-    "cv": "",
-    "linkedin": "vacio",
-    "especializacion": "vacio",
-    "descripcion": "vacio"
-    },
-
-    
-
-    {
-
     "clase_rol":"asesor-externo",
     "rol": "ASESOR EXTERNO",
     "nombre": "Mg. Doria Maria Vanesa",
@@ -144,7 +76,8 @@
     "especializacion": "Gestion de proyectos,gestión de talento humano, acceso abierto",
     "descripcion": "Especialista en Ingeniería de Software (gestion de proyectos y gestión detalento humano), Docencia Universitaria y Acceso Abierto"
 
-    }, 
+    },
+    
     {
 
         
@@ -170,81 +103,17 @@
     "especializacion": "Ingeniería de requisitos, educación en ingeniería,acceso abierto",
     "descripcion": "Especialista en Ingeniería de requisitos de software, Docencia Universitaria y Acceso abierto"
     },
-    {
-
-    "clase_rol":"estudiante",
-    "rol": "ESTUDIANTE",
-    "nombre": "dato.Flores Sebastian",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "",
-    "descripcion": ""
-
-    },
 
     {
 
     "clase_rol":"investigador",
     "rol": "INVESTIGADOR",
-    "nombre": "dato.Funes Ana Maria",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "vacio",
-    "descripcion": "vacio"
-
-
-    },
-    {
-
-    "clase_rol":"estudiante",
-    "rol": "ESTUDIANTE",
-    "nombre": "dato.Godoy Inalen",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "",
-    "descripcion": ""
-
-    },
-
-    {
-
-    "clase_rol":"estudiante",
-    "rol": "ESTUDIANTE",
-    "nombre": "dato.Guiñazu Joaquín Miguel",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "",
-    "descripcion": ""
-
-    },
-
-    {
-
-    "clase_rol":"asesor-externo",
-    "rol": "ASESOR EXTERNO",
-    "nombre": "dato.Leiva Ariel",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "",
-    "descripcion": ""
-
-    },
-
-    {
-
-    "clase_rol":"estudiante",
-    "rol": "ESTUDIANTE",
-    "nombre": "dato.Loyola María Luciana",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "",
-    "descripcion": ""
+    "nombre": "Dr. Garis Ana Gabriela ",
+    "imagen": "../img-GIS/IMGintegrantes/foto_ana_garis 1 - Ana Garis.png",
+    "cv": "../CVs-GIS/CV Ana Garis resumido short bio-2025 - Ana Garis.pdf",
+    "linkedin": "https://www.linkedin.com/in/ana-garis-5738364",
+    "especializacion": "Ética, Auditoria y Peritajes Informáticos",
+    "descripcion": "Docente e investigadora en UNSL. Participación en equipos de I+D+I de la UNSL, del IIST (China), de la Universidad de Minho y la de Porto (Portugal)."
 
     },
 
@@ -262,19 +131,6 @@
     },
 
     {
-
-    "clase_rol":"asesor-externo",
-    "rol": "ASESOR EXTERNO",
-    "nombre": "dato.Novillo Rangone Gabriel Antonio",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "",
-    "descripcion": ""
-
-    },
-
-    {
     "clase_rol":"asesor-externo",
     "rol": "ASESOR EXTERNO",
     "nombre": "Comp.Sci Ochoa Claudio ",
@@ -287,20 +143,6 @@
 
     {
 
-    "clase_rol":"estudiante",
-    "rol": "ESTUDIANTE",
-    "nombre": "dato.Olguin Gonzalo",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "",
-    "descripcion": ""
-
-    },
-
-
-    {
-
     "clase_rol":"asesor-externo",
     "rol": "ASESOR EXTERNO",
     "nombre": "Ing. Orellano Zalazar Ignacio ",
@@ -309,33 +151,6 @@
     "linkedin": "https://www.linkedin.com/in/ignacio-orellano",
     "especializacion": "Desarrollo Web",
     "descripcion": "Ingeniero en informática con experiencia en el desarrollo web"
-
-    },
-
-    {
-
-    "clase_rol":"estudiante",
-    "rol": "ESTUDIANTE",
-    "nombre": "dato.Paéz Braian Andrés",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "",
-    "descripcion": ""
-
-    },
-
-    {
-
-    "clase_rol":"investigador",
-    "rol": "INVESTIGADOR",
-    "nombre": "dato.Peralta Mario Gabriel",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "vacio",
-    "descripcion": "vacio"
-
 
     },
     
@@ -353,20 +168,6 @@
     },
 
     {
-
-    "clase_rol":"estudiante",
-    "rol": "ESTUDIANTE",
-    "nombre": "dato.Quevedo Jorge Arnaldo",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "",
-    "descripcion": ""
-
-    },
-
-
-    {
     "clase_rol":"estudiante",
     "rol": "ESTUDIANTE",
     "nombre": "Est. Riera Bauer Fabricio José",
@@ -375,31 +176,6 @@
     "mail": "fjrbauer@email.unsl.edu.ar",
     "especializacion": "Web - IA",
     "descripcion": "Estudiante avanzado, auxiliar de segunda categoría y apasionado nunca parar de aprender."
-    },
-
-    {
-    "clase_rol":"investigador",
-    "rol":"INVESTIGADOR",
-    "nombre":"Dr. Riesco Daniel",
-    "cv":"../CVs-GIS/CV_ORG_1_CV-ARGENTINO-COMPLETO_20163167973 2023 - Daniel Riesco.pdf",
-    "imagen":"../img-GIS/IMGintegrantes/Foto Riesco - Daniel Riesco.jpg",
-    "mail":"driesco@unsl.edu.ar",
-    "especializacion":"Arquitectura de Software, Cloud Computing, Métodos Formales",
-    "descripcion":"Doctor en Informática por la Univ. de Vigo, con Maestría en Ing. del Conocimiento por la Univ. Politécnica de Madrid y Lic. en Cs de la Computación"
-
-    },
-
-    {
-
-    "clase_rol":"estudiante",
-    "rol": "ESTUDIANTE",
-    "nombre": "dato.Rodrigo Salinas Francisco",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "",
-    "descripcion": ""
-
     },
 
     {
@@ -414,36 +190,6 @@
     "descripcion": "Magíster en Economía y Negocios, Licenciado en Ciencias de la Computación y Profesor en Computación. Consultor, auditor y docente universitario"
 
     },
-
-    
-    {
-
-    "clase_rol":"investigador",
-    "rol": "INVESTIGADOR",
-    "nombre": "dato.Sanchez Alejandro",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "vacio",
-    "descripcion": "vacio"
-
-
-    },
-
-    {
-
-    "clase_rol":"estudiante",
-    "rol": "ESTUDIANTE",
-    "nombre": "dato.Velez Priscila Zoe",
-    "imagen": "",
-    "cv": "",
-    "mail": "vacio",
-    "especializacion": "",
-    "descripcion": ""
-
-    },
-
-
 
     {
 
